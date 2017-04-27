@@ -1,0 +1,29 @@
+Hey Professor/Hao Liu,
+
+	I uploaded a shell script that will run the .h and .cpp files that 
+	live in my area on /afs and print the output to a text file in your
+	home area as well as mine and then open it in gedit if you have your 
+	X11 forwarding enabled. I tried to make my outputs easy to read,
+	but because of the limited size of the terminal window, the output for 
+	everything involing test case E spans onto multiple lines. So if you 
+	open the output file it will hold the formatting for operations involving 
+	test case E. 
+
+	The output should should like this 
+				AAAAAAAA
+			sign    BBBBBBBB
+			----------------
+			AAAAAAA+BBBBBBBB
+	but E will come out like this in the terminal
+
+				EEEEEEEE
+			EEEEEEEEEEEEEE
+				BBBBBBBBBBBBB
+			-------------------
+				--------------
+			EEEEEEEEEEEEEEEEEEEEEEE+BBB
+				BBBBBBBBB
+	So those aren't super easy to look at outside of a text editor.
+
+Kind Regards,
+John Homan
